@@ -2,7 +2,7 @@ import React from 'react'
 
 const HiringDesigners =()=>{
     return(
-        <div className='flexItemNav'>Hiring Designers</div>
+        <li className='flexItemNav'>Hiring Designers</li>
     )
 }
 

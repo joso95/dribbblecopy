@@ -1,7 +1,7 @@
 import React from 'react'
  const Explore =()=>{
      return(
-        <div className='flexItemNav'>Explore</div>
+        <li className='flexItemNav'>Explore</li>
      )
  }
 

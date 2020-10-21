@@ -2,7 +2,7 @@ import React from 'react'
 
 const ForDesigners =()=>{
     return(
-        <div className='flexItemNav'>For Designers</div>
+        <li className='flexItemNav'>For Designers</li>
     )
 }
 

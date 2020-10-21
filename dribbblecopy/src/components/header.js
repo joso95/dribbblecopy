@@ -8,27 +8,28 @@ import HiringDesigners from './hiringDesigners';
 import SignIn from './signIn'
 import SignUp from './signUp'
 import './Header.css'
-
+import NavCreation from './navComponentTest'
 
 const Header =()=>{
     return(
         <div className='header'>
             <div className='headerFlexbox'>
                 <img src={dribbble} width='80px' height='76px'/>
-                <div className='innerHeader'>
-                    <span className='navSpanRight'>
-                        <DribbbleHomepage/>
+                <ul className='innerHeader'>
+                    <span className='navSpanLeft'>
                         <Explore/>
                         <ForDesigners/>
-                        <HiringDesigners/>    
-                    </span>
-                    <span className='navSpanLeft'>  
+                        <HiringDesigners/> 
+                    </span> 
+                 
+                    <span className='navSpanRight'>  
+                        <NavCreation/>
                         <SignIn/>
                         <SignUp/>
                     </span>
+                </ul> 
                 </div>
             </div>    
-        </div>
     )
 }
 

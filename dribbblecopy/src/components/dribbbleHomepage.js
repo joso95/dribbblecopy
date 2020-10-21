@@ -2,7 +2,7 @@ import React from 'react'
 
 const DribbbleHomepage =()=>{
     return(
-        <div className="flexItemNav">dribbble</div>
+        <li className="flexItemNav">dribbble</li>
     )
 }
 

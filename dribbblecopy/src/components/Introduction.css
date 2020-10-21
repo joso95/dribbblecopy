@@ -1,0 +1,17 @@
+.largeContainter{
+    display: flex;
+    height: 480px;
+    flex-direction: row;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+
+.introImg{
+    width: 510px;
+    height: 360px;
+}
+
+.introText{
+    display: flex;
+}
