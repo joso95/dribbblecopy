@@ -1,3 +1,9 @@
+.wrapper{
+    position: relative;
+    flex: 1 0 auto;
+    background: teal;
+}
+
 .largeContainter{
     display: flex;
     height: 480px;
@@ -5,13 +11,22 @@
     padding-top: 0;
     padding-bottom: 0;
     justify-content: space-between;
+    padding-left: 72px;
+    padding-right: 72px;
 }
 
 .introImg{
+    display: flex;
     width: 510px;
     height: 360px;
 }
 
 .introText{
     display: flex;
+    max-width: 624px;
+    flex-direction: column;
+}
+
+.credit{
+    margin-top: 20px;
 }

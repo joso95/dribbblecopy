@@ -1,8 +1,8 @@
 import React from 'react';
 
-const NavCreation=({name})=>{
+const NavCreation=(props)=>{
     return(
-        <li className = {name}>{name}</li>
+        <li className = 'flexItemNav'>{props.name}</li>
 
     )}
 

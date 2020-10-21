@@ -1,14 +1,8 @@
 import React from 'react';
-import Explore from './explore'
 import dribbble from './dribbble.png'
 import './dribbbleLogo.css'
-import DribbbleHomepage from './dribbbleHomepage'
-import ForDesigners from './forDesigners';
-import HiringDesigners from './hiringDesigners';
-import SignIn from './signIn'
-import SignUp from './signUp'
 import './Header.css'
-import NavCreation from './navComponentTest'
+import NavCreation from './navComponent'
 
 const Header =()=>{
     return(
@@ -17,15 +11,15 @@ const Header =()=>{
                 <img src={dribbble} width='80px' height='76px'/>
                 <ul className='innerHeader'>
                     <span className='navSpanLeft'>
-                        <Explore/>
-                        <ForDesigners/>
-                        <HiringDesigners/> 
+                        <NavCreation name={'Explore'}/>
+                        <NavCreation name={'For designers'}/>
+                        <NavCreation name={'Hiring Deigners'}/>
+                        <NavCreation name={'HiringDesigners'}/> 
                     </span> 
                  
                     <span className='navSpanRight'>  
-                        <NavCreation/>
-                        <SignIn/>
-                        <SignUp/>
+                        <NavCreation name={'Sign In'}/>
+                        <NavCreation name={'Sign up'}/>
                     </span>
                 </ul> 
                 </div>

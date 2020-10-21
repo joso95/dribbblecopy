@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/header'
 import Intro from './components/introduction'
+import SubNav from './components/subNav'
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       </div>
       <div>
         <Intro/>
+      </div>
+      <div>
+        <SubNav/>
       </div>
     </div>
   );
