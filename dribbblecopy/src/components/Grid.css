@@ -1,0 +1,19 @@
+.outer-container {
+    font: 16px sans-serif;
+    background: gold;
+    color: white;
+    height: 200px;
+    display: flex;
+  }
+  .box {
+    padding: 10px;
+    flex: 1 0 auto;
+  }
+  .larger {
+    background: yellowgreen;
+    flex: 3 0 auto;
+  }
+  .grids{
+      display: flex;
+      
+  }

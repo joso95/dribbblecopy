@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header'
 import Intro from './components/introduction'
 import SubNav from './components/subNav'
+import MainContent from './components/mainContent'
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div>
         <SubNav/>
+      </div>
+      <div>
+      <MainContent/>
       </div>
     </div>
   );

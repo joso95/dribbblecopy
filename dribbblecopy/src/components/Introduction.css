@@ -2,7 +2,7 @@
     display: flex;
     position: relative;
     flex: 1 0 auto;
-    background: teal;
+    background: whitesmoke;
 }
 
 .largeContainter{
@@ -30,4 +30,8 @@
 
 .credit{
     margin-top: 20px;
+}
+
+.signUpButton{
+    background-color: pink;
 }
