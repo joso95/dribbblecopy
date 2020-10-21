@@ -12,15 +12,20 @@ import './Header.css'
 
 const Header =()=>{
     return(
-        <div>
+        <div className='header'>
             <div className='headerFlexbox'>
+                <img src={dribbble} width='80px' height='76px'/>
                 <div className='innerHeader'>
-                    <DribbbleHomepage/>
-                    <Explore/>
-                    <ForDesigners/>
-                    <HiringDesigners/>      
-                    <SignIn/>
-                    <SignUp/>
+                    <span className='navSpanRight'>
+                        <DribbbleHomepage/>
+                        <Explore/>
+                        <ForDesigners/>
+                        <HiringDesigners/>    
+                    </span>
+                    <span className='navSpanLeft'>  
+                        <SignIn/>
+                        <SignUp/>
+                    </span>
                 </div>
             </div>    
         </div>

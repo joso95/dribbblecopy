@@ -1,9 +1,26 @@
+.header{
+    position: static;
+    height: 80px;
+    will-change: initial;
+}
+
+.logo{
+    height: 80px;
+    width: 76px;
+}
+
+.navSpanRight{
+    display: flex;
+}
+
+.navSpanLeft{
+    display: flex;
+}
+
 .headerFlexbox{
     display: flex;
     background-color: teal;
-    align-items: center;
-    width: 100%;
-    height: 20vh;
+    padding: 0 30px;
     
 }
 .innerHeader{
@@ -16,5 +33,5 @@
 .flexItemNav{
     display: flex;
     padding-right: 20px;
-
+    align-items: center;
 }
