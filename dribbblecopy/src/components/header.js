@@ -14,7 +14,7 @@ const Header =()=>{
                         <NavCreation name={'Explore'}/>
                         <NavCreation name={'For designers'}/>
                         <NavCreation name={'Hiring Deigners'}/>
-                        <NavCreation name={'HiringDesigners'}/> 
+                        <NavCreation name={'Hiring Designers'}/> 
                     </span> 
                  
                     <span className='navSpanRight'>  
