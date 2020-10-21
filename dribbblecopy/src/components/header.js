@@ -3,6 +3,7 @@ import dribbble from './dribbble.png'
 import './dribbbleLogo.css'
 import './Header.css'
 import NavCreation from './navComponent'
+import ButtonCreation from './buttonComponent'
 
 const Header =()=>{
     return(
@@ -13,7 +14,7 @@ const Header =()=>{
                     <span className='navSpanLeft'>
                         <NavCreation name={'Explore'}/>
                         <NavCreation name={'For designers'}/>
-                        <NavCreation name={'Hiring Deigners'}/>
+                        <NavCreation name={'|'}/>
                         <NavCreation name={'Hiring Designers'}/> 
                     </span> 
                  

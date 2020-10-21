@@ -19,13 +19,11 @@
 
 .headerFlexbox{
     display: flex;
-    background-color: teal;
     padding: 0 30px;
     
 }
 .innerHeader{
     display: flex;
-    background-color: whitesmoke;
     justify-content: space-between;
     flex-grow: 1;
 }
