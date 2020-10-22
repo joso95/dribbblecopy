@@ -2,9 +2,14 @@
     display: flex;
     position: relative;
     flex: 1 0 auto;
+    justify-content: center;
     background: whitesmoke;
 }
 
+.background{
+    display: flex;
+    flex-grow: 1;
+}
 .largeContainter{
     display: flex;
     height: 480px;
@@ -14,6 +19,7 @@
     justify-content: space-between;
     padding-left: 72px;
     padding-right: 72px;
+    flex-grow: 1;
 }
 
 .introImg{

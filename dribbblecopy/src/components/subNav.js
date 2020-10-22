@@ -1,6 +1,7 @@
 import React from 'react'
 import './SubNav.css'
 import NavCreation from './navComponent'
+import InfoFromDribbble from './infoForDribbble.json'
 
 const SubNav =()=>{
     return(
@@ -13,14 +14,7 @@ const SubNav =()=>{
                 </div>
                 <div className='filterCatagories'>
                     <ul className='bars'> 
-                           <NavCreation name='Animation'/> 
-                           <NavCreation name='Branding'/>
-                           <NavCreation name='Illustration'/>
-                           <NavCreation name='Mobile'/>
-                           <NavCreation name='Print'/>
-                           <NavCreation name='Product design'/>
-                           <NavCreation name='Typography'/>
-                           <NavCreation name='Design'/>
+                    <NavCreation navItems={InfoFromDribbble.content.filterNavBar}/>
                     </ul>
                 </div>
             </div>

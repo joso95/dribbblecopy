@@ -2,6 +2,7 @@
     position: static;
     height: 80px;
     will-change: initial;
+    display: flex;
 }
 
 .logo{
@@ -9,7 +10,7 @@
     width: 76px;
 }
 
-.navSpanRight{
+.navSpan{
     display: flex;
 }
 
@@ -20,6 +21,7 @@
 .headerFlexbox{
     display: flex;
     padding: 0 30px;
+    align-items: center;
     
 }
 .innerHeader{
@@ -32,6 +34,11 @@
     display: flex;
     padding-right: 20px;
     align-items: center;
+}
+
+.flexItemNavRight{
+    display: flex;
+    justify-content: right;
 }
 
 .signUpButton{

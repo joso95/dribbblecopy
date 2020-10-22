@@ -1,15 +1,13 @@
 import React from 'react'
 import './MainContent.css'
-import CreateGrid from './createContentGrid'
 import './Grid.css'
+import CardComponent from './cardComponent'
 
 const MainContent=()=>{
     return(
         <div className='wrapper'>
-            <ol className='grids'>
-                <CreateGrid/>
-                <CreateGrid/>
-            </ol>
+            <CardComponent imgSrc='#' alt='#' title='yes' text='no'/>
+            <CardComponent imgSrc='#' alt='#' title='yes' text='no'/>
         </div>
     )
 }

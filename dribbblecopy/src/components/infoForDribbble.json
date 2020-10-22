@@ -1,0 +1,7 @@
+{
+    "content":{
+        "topNavBarLeft":["Explore","For Designers", "|", "Hire Designers"],
+        "topNavBarRight":["Sign in", "Sign up"],
+        "filterNavBar":["Animation","Branding","Illustration","Mobile","Print","Product Design", "Typography","Design"]
+    }
+}
