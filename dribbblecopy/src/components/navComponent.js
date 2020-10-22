@@ -5,7 +5,9 @@ const NavCreation=({navItems, allignRight})=>{
 
     if(allignRight){
         const headerItems = navItems.map(item=>{
-            return (<li className = 'flexItemNav'><a href='#'>{item}</a></li>)
+            return (<li className = 'flexItemNav'>
+                        <a href='#'>{item}</a>
+                    </li>)
         }   
     );
 }

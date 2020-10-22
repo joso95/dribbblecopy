@@ -7,8 +7,7 @@ import InfoFromDribbble from './infoForDribbble.json'
 const MainContent=()=>{
     return(
         <div className='wrapper'>
-            <CardComponent imgSrc={InfoFromDribbble.pictures.thumbnails} alt='#' title='yes' text='no'/>
-            <CardComponent imgSrc='#' alt='#' title='yes' text='no'/>
+            <CardComponent cardInfo={InfoFromDribbble.pictures.thumbnails} alt='#'/>
         </div>
     )
 }
