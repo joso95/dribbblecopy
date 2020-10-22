@@ -3,5 +3,10 @@
         "topNavBarLeft":["Explore","For Designers", "|", "Hire Designers"],
         "topNavBarRight":["Sign in", "Sign up"],
         "filterNavBar":["Animation","Branding","Illustration","Mobile","Print","Product Design", "Typography","Design"]
+    },
+    "pictures":{
+        "thumbnails":["https://cdn.dribbble.com/users/1615584/screenshots/14434985/media/b42970cd50520f79147ddbe8c77af440.jpg",
+            "https://cdn.dribbble.com/users/3281732/screenshots/14434339/media/8e892052547506d96eebbc73eece9227.jpg",
+            "https://cdn.dribbble.com/users/917664/screenshots/14434284/media/538d1c6983ee07dc4cd79f20b38bea03.png"]
     }
 }
