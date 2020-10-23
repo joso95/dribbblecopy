@@ -14,7 +14,7 @@ const SubNav =()=>{
                 </div>
                 <div className='filterCatagories'>
                     <ul className='bars'> 
-                    <NavCreation navItems={InfoFromDribbble.content.filterNavBar}/>
+                    <NavCreation navItems={InfoFromDribbble.navigation.filterNavBar}/>
                     </ul>
                 </div>
             </div>

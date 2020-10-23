@@ -1,11 +1,14 @@
 import React from 'react'
 
 const CardComponent=({cardInfo})=>{
-    const cardItems = cardInfo.map(item=>{
+    const card = Object.keys(cardInfo)
+    const cardObj = Object.keys(card)
+
+    const cardItems = cardObj.map(item=>{
         return (<div className='card'>
                     <img src={item} alt={'#'}></img>
-                    <h5>#</h5>
                     <span className='cardText'>
+                        <h5>#</h5>
                         cardtext
                     </span>
                 </div>)

@@ -13,12 +13,12 @@ const Header =()=>{
                 <NavBarComponent>
                 <img src={dribbble} width='80px' height='76px'/>
                     <NavCreation 
-                    navItems = {InfoFromDribbble.content.topNavBarLeft}/>
+                    navItems = {InfoFromDribbble.navigation.topNavBarLeft}/>
                 </NavBarComponent>
                 
                 <NavBarComponent>
                     <NavCreation 
-                        navItems={InfoFromDribbble.content.topNavBarRight} 
+                        navItems={InfoFromDribbble.navigation.topNavBarRight} 
                         allignRight={true}/>
                 </NavBarComponent>
                 </ul> 

@@ -1,19 +1,22 @@
-.outer-container {
-    font: 16px sans-serif;
-    background: gold;
-    color: white;
-    height: 200px;
+  .cardWrapper{
     display: flex;
+    height: 300px;
+    background-color: white;
   }
-  .box {
-    padding: 10px;
-    flex: 1 0 auto;
+
+  .card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
   }
-  .larger {
-    background: yellowgreen;
-    flex: 3 0 auto;
+  .card > img{
+
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
   }
-  .grids{
-      display: flex;
-      
+
+  .cardText{
+    display: flex;
   }
