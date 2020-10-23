@@ -8,21 +8,21 @@
     "cardContent":{
         "card1":{
             "name":"Pitch", 
-            "comments":"9",
-            "likes":"153",
+            "comments":"22",
+            "likes":"33",
             "picture":"https://cdn.dribbble.com/users/1615584/screenshots/14434985/media/b42970cd50520f79147ddbe8c77af440.jpg"
         },
             "card2":{
-                "name":"Pitch", 
-                "comments":"9",
-                "likes":"153",
+                "name":"UI8", 
+                "comments":"44",
+                "likes":"55",
                 "picture":"https://cdn.dribbble.com/users/3281732/screenshots/14434339/media/8e892052547506d96eebbc73eece9227.jpg"
             },
 
             "card3":{
-                "name":"Pitch", 
-                "comments":"9",
-                "likes":"153",
+                "name":"Alex", 
+                "comments":"66",
+                "likes":"77",
                 "picture":"https://cdn.dribbble.com/users/917664/screenshots/14434284/media/538d1c6983ee07dc4cd79f20b38bea03.png"
             }
         }
