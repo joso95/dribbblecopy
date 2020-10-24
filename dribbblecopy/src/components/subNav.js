@@ -17,6 +17,11 @@ const SubNav =()=>{
                     <NavCreation navItems={InfoFromDribbble.navigation.filterNavBar}/>
                     </ul>
                 </div>
+                <div>
+                    <span>
+                        <p>Filter</p>
+                    </span>
+                </div>
             </div>
         </div>
     )}

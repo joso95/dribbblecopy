@@ -1,5 +1,6 @@
 import React from 'react';
 import dribbble from './dribbble.png'
+import searchIcon from './searchIcon.png'
 import './dribbbleLogo.css'
 import './Header.css'
 import NavCreation from './navComponent'
@@ -16,7 +17,9 @@ const Header =()=>{
                     navItems = {InfoFromDribbble.navigation.topNavBarLeft}/>
                 </NavBarComponent>
                 
+               
                 <NavBarComponent>
+                <img src={searchIcon}/>
                     <NavCreation 
                         navItems={InfoFromDribbble.navigation.topNavBarRight} 
                         allignRight={true}/>

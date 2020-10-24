@@ -13,3 +13,12 @@
     margin: 10px;
     background-color: white;
 }
+
+.windowList{
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap:36px
+}

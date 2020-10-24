@@ -1,17 +1,21 @@
 import React from 'react'
 
 const CardComponent=({cardInfo})=>{
-    const card = Object.keys(cardInfo)
-    const cardObj = Object.keys(card)
 
-    const cardItems = cardObj.map(item=>{
-        return (<div className='card'>
-                    <img src={item} alt={'#'}></img>
-                    <span className='cardText'>
-                        <h5>#</h5>
-                        cardtext
-                    </span>
-                </div>)
+    const cardItems = cardInfo.map(item=>{
+        return (<li>
+                    <div className='card'>
+                        <img src={item.image} alt={'#'}></img>
+                            <div className='corner'>
+                                    <span className='cardText'>
+                                        <p>{item.title}</p> <p>{item.etc}</p>
+                                    </span>
+                                    <span className='reactions'>
+                                        <p>22 33</p>
+                                    </span>
+                            </div>
+                    </div>
+                </li>)
         }   
     );
     return cardItems

@@ -1,14 +1,10 @@
   .cardWrapper{
-    display: flex;
-    height: 300px;
+    height: auto;
     background-color: white;
   }
 
   .card{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-grow: 1;
+    background-color: whitesmoke;
   }
   .card > img{
 
@@ -19,4 +15,20 @@
 
   .cardText{
     display: flex;
+  }
+
+  .corner{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    align-items: center;
+    position: relative;
+  }
+
+  .info{
+    display: flex;
+  }
+
+  .reaction{
+    justify-content: right;
   }

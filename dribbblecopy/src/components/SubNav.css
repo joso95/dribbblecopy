@@ -37,3 +37,8 @@
     flex-grow: 1;
     padding-right: 72px;
 }
+
+.subNavContainer{
+    display:flex;
+    justify-content: center;
+}
