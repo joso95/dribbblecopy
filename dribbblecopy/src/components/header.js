@@ -23,7 +23,7 @@ const Header =()=>{
                     <NavCreation 
                         navItems={InfoFromDribbble.navigation.topNavBarRight} 
                         allignRight={true}/>
-                        <ButtonComponent name="Sign up"/>
+                        <ButtonComponent name="Sign up" class='signUp'/>
                 </NavBarComponent>
                 </ul> 
 

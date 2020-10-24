@@ -38,16 +38,25 @@
     flex-direction: column;
 }
 
-.basicButton{
+.signUp{
     transition-duration: 0.4s;
     background-color: palevioletred;
     border-radius: 8px;
     width: 75px;
     height: 40px;
+    color: whitesmoke;
 }
 
-.basicButton:hover{
+.signUp:hover{
     background-color: pink;
+}
+
+.teamButton{
+    background-color: gray;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    color: whitesmoke;
 }
 
 .credit{
@@ -71,12 +80,13 @@
 
 
 @media only screen and (max-width: 750px) {
-    .largeContainter{
+    .largeContainer{
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
         padding-top: 40px;
         padding-bottom: 40px;
+        background-color: green;
     }
     .largeContainter > .introImg{
         max-width: 100%;
@@ -87,4 +97,11 @@
     }
 
 
+}
+
+@media only screen and (min-width: 1200px){
+    .introText > h1{
+        font-size: 48px;
+        line-height: 56px;
+    }
 }

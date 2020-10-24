@@ -10,14 +10,14 @@ const IntroPic =()=>{
             <div className='introText'>
             <   h1>Discover the world’s top designers and creatives</h1>
                 <p>Dribbble is the leading destination to find and showcase creative work and home to the world's best design professionals.</p>
-                <ButtonComponent name="Sign up"/>
+                <ButtonComponent name="Sign up" class='signUp'/>
             </div>
 
             <div className='introImg'>
                     <img src={url} width='510px' height='360px'></img>
             
                     <span className='credit'>
-                        Art by Romain Briaux
+                        Art by <a href="#">Romain Briaux</a>
                     </span>
             </div>
         </div>
