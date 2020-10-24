@@ -7,20 +7,12 @@ import MainContent from './components/mainContent'
 
 function App() {
   return (
-    <div>
-      <div>
+    <body className="wholeApp">
         <Header/>
-      </div>
-      <div>
         <Intro/>
-      </div>
-      <div>
         <SubNav/>
-      </div>
-      <div>
-      <MainContent/>
-      </div>
-    </div>
+        <MainContent/>
+    </body>
   );
 }
 

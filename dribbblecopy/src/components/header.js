@@ -6,7 +6,7 @@ import './Header.css'
 import NavCreation from './navComponent'
 import NavBarComponent from './navBarComponent'
 import InfoFromDribbble from './infoForDribbble.json'
-
+import ButtonComponent from './buttonComponent'
 const Header =()=>{
     return(
         <div className='header'>
@@ -23,9 +23,17 @@ const Header =()=>{
                     <NavCreation 
                         navItems={InfoFromDribbble.navigation.topNavBarRight} 
                         allignRight={true}/>
+                        <ButtonComponent name="Sign up"/>
                 </NavBarComponent>
                 </ul> 
-                </div>   
+
+                <ul className='mobileHeader'>
+                <NavBarComponent>
+                    <NavCreation 
+                    navItems = {InfoFromDribbble.navigation.topMobileBar}/>
+                </NavBarComponent>
+                </ul> 
+        </div>   
     )
 }
 

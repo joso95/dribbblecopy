@@ -1,16 +1,11 @@
 .wrapper{
     display: flex;
     position: relative;
-    flex: 1 0 auto;
     justify-content: center;
     background: whitesmoke;
 }
 
-.background{
-    display: flex;
-    flex-grow: 1;
-}
-.largeContainter{
+.largeContainer{
     display: flex;
     height: 480px;
     flex-direction: row;
@@ -34,6 +29,7 @@
     display: flex;
     width: 510px;
     height: 360px;
+    flex-direction: column;
 }
 
 .introText{
@@ -42,17 +38,27 @@
     flex-direction: column;
 }
 
+.basicButton{
+    transition-duration: 0.4s;
+    background-color: palevioletred;
+    border-radius: 8px;
+    width: 75px;
+    height: 40px;
+}
+
+.basicButton:hover{
+    background-color: pink;
+}
+
 .credit{
     margin-top: 20px;
     display: flex;
     justify-content: right;
+    color: #9e9ea7;
 }
 
-.signUpButton{
-    background-color: pink;
-}
 
-.textNPic{
+.introShot{
     width: auto;
     display: flex;
     align-content: flex-end;
@@ -61,4 +67,24 @@
     font-weight: 400;
     line-height: 20px;
     color: #9e9ea7;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .largeContainter{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .largeContainter > .introImg{
+        max-width: 100%;
+    }
+
+    .credit{
+        justify-content: center;
+    }
+
+
 }

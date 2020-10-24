@@ -51,3 +51,34 @@
     background: pink;
     justify-content: center;
 }
+
+.mobileHeader{
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .header>.innerHeader{
+        display: none;
+    }
+    .header{
+        height: 68px;
+    }
+
+    .headerFlexbox{
+        flex-grow: 1;
+    }
+
+    
+    .mobileHeader{
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+    }
+    
+    .navSpan{
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+    
+}

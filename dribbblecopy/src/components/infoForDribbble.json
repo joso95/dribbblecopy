@@ -1,7 +1,8 @@
 {
     "navigation":{
         "topNavBarLeft":["Explore","For Designers", "|", "Hire Designers"],
-        "topNavBarRight":["Sign in", "Sign up"],
+        "topNavBarRight":["Sign in"],
         "filterNavBar":["Animation","Branding","Illustration","Mobile","Print","Product Design", "Typography","Design"]
+        ,"topMobileBar":["Menu", "Dribbble","Sign in"]
     }
 }

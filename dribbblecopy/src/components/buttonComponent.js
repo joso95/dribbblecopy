@@ -2,7 +2,7 @@ import React from 'react'
 
 const ButtonCreation =(props)=>{
     return(
-        <button onClick={console.log('it clicked')}>{props.name}</button>
+        <button className='basicButton' onClick={console.log('#')}>{props.name}</button>
     )
 }
 
