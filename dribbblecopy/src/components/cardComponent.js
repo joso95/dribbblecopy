@@ -9,7 +9,7 @@ const CardComponent=({cardInfo})=>{
                         <img src={item.image} alt={'#'}></img>
                             <div className='corner'>
                                     <span className='cardText'>
-                                        <p>{item.title} <ButtonComponent name='TEAM' class="teamButton"/></p>
+                                        <p>{item.title} <ButtonComponent name={item.etc} class={item.etc}/></p>
                                     </span>
                                     <span className='reactions'>
                                         <p>22 33</p>
