@@ -1,4 +1,4 @@
-## Hello
+## Welcome
 
 Thank you for cheking out my project! Here's a short overview of the project.
 
