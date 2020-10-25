@@ -2,7 +2,7 @@
     "navigation":{
         "topNavBarLeft":["Explore","For Designers", "|", "Hire Designers"],
         "topNavBarRight":["Sign in"],
-        "filterNavBar":["Animation","Branding","Illustration","Mobile","Print","Product Design", "Typography","Design"]
+        "filterNavBar":["All","Animation","Branding","Illustration","Mobile","Print","Product Design", "Typography","Web Design"]
         ,"topMobileBar":["Menu", "Dribbble","Sign in"]
     }
 }
