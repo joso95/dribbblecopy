@@ -1,6 +1,10 @@
   .cardWrapper{
     height: auto;
     background-color: white;
+    float: none;
+    width: auto;
+    max-width: none;
+    
   }
 
   .card{
@@ -34,4 +38,5 @@
   }
 
   .basicButton{
+    background-color: gray;
   }

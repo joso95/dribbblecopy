@@ -1,11 +1,11 @@
 import React from 'react';
-import IntroPic from './introPic'
+import IntroShot from './introShot'
 import './Introduction.css'
 
 const Intro =()=>{
     return(
         <div className='wrapper'>
-                    <IntroPic/>
+                    <IntroShot/>
         </div>
 )}
 
