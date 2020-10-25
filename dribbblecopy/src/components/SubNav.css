@@ -44,6 +44,8 @@
     display:flex;
     justify-content: space-between;
     padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .mobileFilter{
@@ -90,5 +92,11 @@
     .btn-mobile{
         margin-left: 55px;
         margin-right: 25px;
+    }
+
+    .subNavFlex{
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 }
