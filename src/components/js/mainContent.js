@@ -1,8 +1,8 @@
 import React from 'react'
-import './MainContent.css'
-import './Grid.css'
-import CardComponent from './cardComponent'
-import CardContent from './cardContent.json'
+import '../css/MainContent.css'
+import '../css/Grid.css'
+import CardComponent from '../js/cardComponent'
+import CardContent from '../json/cardContent.json'
 
 const MainContent=()=>{
     return(

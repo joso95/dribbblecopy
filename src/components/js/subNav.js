@@ -1,7 +1,7 @@
 import React from 'react'
-import './SubNav.css'
+import '../css/SubNav.css'
 import NavCreation from './navComponent'
-import InfoFromDribbble from './infoForDribbble.json'
+import InfoFromDribbble from '../json/infoForDribbble.json'
 import ButtonComponent from './buttonComponent'
 
 const SubNav =()=>{

@@ -12,7 +12,7 @@ const CardComponent=({cardInfo})=>{
                                         <p>{item.title} <ButtonComponent name={item.etc} class={item.etc}/></p>
                                     </span>
                                     <span className='reactions'>
-                                        <p>22 33</p>
+                                        <p>{item.likes} {item.comments}</p>
                                     </span>
                             </div>
                     </div>

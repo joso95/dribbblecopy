@@ -1,12 +1,13 @@
 import React from 'react';
-import dribbble from './dribbble.png'
-import searchIcon from './searchIcon.png'
-import './dribbbleLogo.css'
-import './Header.css'
+import dribbble from '../pictures/dribbble.png'
+import searchIcon from '../pictures/searchIcon.png'
+import '../css/dribbbleLogo.css'
+import '../css//Header.css'
 import NavCreation from './navComponent'
 import NavBarComponent from './navBarComponent'
-import InfoFromDribbble from './infoForDribbble.json'
+import InfoFromDribbble from '../json/infoForDribbble.json'
 import ButtonComponent from './buttonComponent'
+
 const Header =()=>{
     return(
         <div className='header'>

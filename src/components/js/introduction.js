@@ -1,6 +1,6 @@
 import React from 'react';
 import IntroShot from './introShot'
-import './Introduction.css'
+import '../css/Introduction.css'
 
 const Intro =()=>{
     return(

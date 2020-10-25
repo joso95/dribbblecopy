@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header'
-import Intro from './components/introduction'
-import SubNav from './components/subNav'
-import MainContent from './components/mainContent'
+import Header from './components/js/header'
+import Intro from './components/js/introduction'
+import SubNav from './components/js/subNav'
+import MainContent from './components/js/mainContent'
 
 function App() {
   return (

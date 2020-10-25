@@ -5,112 +5,144 @@
             "image": "https://cdn.dribbble.com/users/1615584/screenshots/14434985/media/b42970cd50520f79147ddbe8c77af440.jpg",
             "altText": "img no load",
             "etc": "TEAM",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 1,
+            "comments": 2
         },
         {
             "title": "UI8",
             "image": "https://cdn.dribbble.com/users/3281732/screenshots/14434339/media/8e892052547506d96eebbc73eece9227.jpg",
             "altText": "img no load",
             "etc": "PRO",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 3,
+            "comments": 4
         },
        {
             "title": "Alex",
             "image": "https://cdn.dribbble.com/users/917664/screenshots/14434284/media/538d1c6983ee07dc4cd79f20b38bea03.png",
             "altText": "img no load",
             "etc": "TEAM",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 5,
+            "comments": 6
        },
        {
             "title": "OWW",
             "image": "https://cdn.dribbble.com/users/3860505/screenshots/14446070/media/97c7b7da4679d64c56b709fb156bf45c.png",
             "altText": "img no load",
             "etc": "PRO",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 7,
+            "comments": 8
         },
         {
             "title": "Greg",
             "image": "https://cdn.dribbble.com/users/1619633/screenshots/14426722/media/9e9ee60e087557dee21ab26d978cb395.png",
             "altText": "img no load",
             "etc": "TEAM",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 9,
+            "comments": 10
         },
         {
             "title": "Fire",
             "image": "https://cdn.dribbble.com/users/1876052/screenshots/14447187/media/febdc9280d6cc8421a34aa3a287b3b45.png",
             "altText": "img no load",
             "etc": "PRO",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 11,
+            "comments": 12
         },
         {
             "title": "Pitch",
             "image": "https://cdn.dribbble.com/users/1615584/screenshots/14434985/media/b42970cd50520f79147ddbe8c77af440.jpg",
             "altText": "img no load",
             "etc": "TEAM",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 13,
+            "comments": 14
         },
         {
             "title": "UI8",
             "image": "https://cdn.dribbble.com/users/3281732/screenshots/14434339/media/8e892052547506d96eebbc73eece9227.jpg",
             "altText": "img no load",
             "etc": "PRO",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 15,
+            "comments": 16
         },
        {
             "title": "Alex",
             "image": "https://cdn.dribbble.com/users/917664/screenshots/14434284/media/538d1c6983ee07dc4cd79f20b38bea03.png",
             "altText": "img no load",
             "etc": "TEAM",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 17,
+            "comments": 18
        },
        {
             "title": "OWW",
             "image": "https://cdn.dribbble.com/users/3860505/screenshots/14446070/media/97c7b7da4679d64c56b709fb156bf45c.png",
             "altText": "img no load",
             "etc": "PRO",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 19,
+            "comments": 20
         },
         {
             "title": "Greg",
             "image": "https://cdn.dribbble.com/users/1619633/screenshots/14426722/media/9e9ee60e087557dee21ab26d978cb395.png",
             "altText": "img no load",
             "etc": "TEAM",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 22,
+            "comments": 21
         },
         {
             "title": "Fire",
             "image": "https://cdn.dribbble.com/users/1876052/screenshots/14447187/media/febdc9280d6cc8421a34aa3a287b3b45.png",
             "altText": "img no load",
             "etc": "PRO",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 22,
+            "comments": 23
         },
         {
             "title": "Pitch",
             "image": "https://cdn.dribbble.com/users/1615584/screenshots/14434985/media/b42970cd50520f79147ddbe8c77af440.jpg",
             "altText": "img no load",
             "etc": "TEAM",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 24,
+            "comments": 25
         },
         {
             "title": "UI8",
             "image": "https://cdn.dribbble.com/users/3281732/screenshots/14434339/media/8e892052547506d96eebbc73eece9227.jpg",
             "altText": "img no load",
             "etc": "PRO",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 26,
+            "comments": 27
         },
        {
             "title": "Alex",
             "image": "https://cdn.dribbble.com/users/917664/screenshots/14434284/media/538d1c6983ee07dc4cd79f20b38bea03.png",
             "altText": "img no load",
             "etc": "TEAM",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 28,
+            "comments": 29
        },
        {
             "title": "OWW",
             "image": "https://cdn.dribbble.com/users/3860505/screenshots/14446070/media/97c7b7da4679d64c56b709fb156bf45c.png",
             "altText": "img no load",
             "etc": "PRO",
-            "titleSize": 23.123
+            "titleSize": 23.123,
+            "likes": 30,
+            "comments": 31
         }
 
     ]
